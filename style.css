@@ -229,6 +229,58 @@ h2{
 }
 
 
+@media  screen and (max-width:600px) {
+    .header-content{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .slides{
+        width: 480px;
+        height: 300px;
+    }
+
+    .slider{
+        height: 300px;
+    }
+
+    .slide{
+        width: 480px;
+        height: 300px;
+    }
+
+    .slide img{
+        width: 480px;
+        height: 300px;
+    }
+
+    .manual-navigation{
+        width: 480px;
+    }
+
+    .auto-navigation{
+        width: 480px;
+        margin-top: 265px;
+    }
+
+    .title-main{
+        font-size: 2.3em;
+    }
+
+    .main-section p{
+        width: 480px;
+        font-size: 20px;
+    }
+
+    .section2-content{
+        flex-direction: column;
+    }
+
+    h2{
+        margin: 0;
+    }
+}
+
 
 
 
