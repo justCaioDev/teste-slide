@@ -229,7 +229,7 @@ h2{
 }
 
 
-@media  screen and (max-width:600px) {
+@media  screen and (max-width:1200px) {
     .header-content{
         flex-direction: column;
         gap: 15px;
